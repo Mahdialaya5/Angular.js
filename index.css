@@ -1,0 +1,35 @@
+nav{
+    position: relative;
+    left: 350px;
+}
+.search{
+    height: 20px;
+    border-radius: 5%;
+   color: blue;
+   
+}
+.newMovie{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap:10px;
+    width: 350px;
+    background-color: beige;
+    border: brown solid 2px;
+  padding: 2%;
+
+}
+.movie{
+    background-color: beige;
+    height: 270px;
+    width: 200px;
+}
+.movies{
+    position: relative;
+    top:20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
